@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './component/Welcome';
-import Form from './component/Form/Form' ;
+// import Welcome from './component/Welcome';
+// import Form from './component/Form/Form' ;
+// import Table from './component/monday/Table';
+// import Hello from './component/hello';
+import Nav from './component/navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-    <Welcome/>
-    <Form/>
+      <Nav/>
     </div>
   );
 }
