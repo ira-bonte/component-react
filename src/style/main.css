@@ -12,6 +12,7 @@
     --maincolor: #29335c;
     --maincolorLight: #5767aa;
     --textColor: #eee;
+    --secondarycolor: #db2839;
 }
 header{
     display: flex;
@@ -26,9 +27,11 @@ nav a{
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
+    transition: 200ms ease;
 }
 nav a:hover{
-    color: var(--secondaryColor);
+    color: var(--secondarycolor);
+    text-decoration: underline;
 }
 header.nav-btn{
     padding: 5px;
@@ -40,7 +43,15 @@ header.nav-btn{
     visibility: hidden;
     opacity: 0x;
 }
-@media only screen and (max-width:1024px){
+header nav ul{
+    list-style: none;
+    display: flex;
+    font-weight: 600;
+}
+.buttons{
+    display: none;
+}
+@media screen AND (max-width: 768px){
     header.nav-btn{
         visibility: visible;
         opacity: 1;
@@ -62,5 +73,11 @@ header.nav-btn{
      }
      header .responsive-nav{
         transform: none;
+     }
+     nav{
+        display: none;
+     }
+     .buttons{
+        display: block;
      }
 }

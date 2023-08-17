@@ -37,28 +37,3 @@
     transform: rotate(360deg);
   }
 }
-fieldset
-{
-  width: 60px;
-}
-.nav
-{
-  display: inline-block;
-  text-align: center;
-
-}
-nav ul {
-  list-style: none;
-  text-align: justify;
-
-}
-nav ul li a{
-  text-decoration: none;
-  color: hotpink;
-  padding: 20px 20px;
-  margin-top: 20px;
-}
-.nav ul li{
-  display: flex;
-  justify-content: space-between;
-}
