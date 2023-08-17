@@ -4,14 +4,19 @@ import './App.css';
 // import Form from './component/Form/Form' ;
 // import Table from './component/monday/Table';
 // import Hello from './component/hello';
-import Nav from './component/navbar/navbar';
+import Nav from './component/navbar/Navbar';
+import '../src/Style/Main.css';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <Nav/>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      
+         <Nav/>
+      
+      
+    );
+    }
 }
 
 export default App;
