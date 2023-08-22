@@ -1,0 +1,16 @@
+#header
+{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.list
+{
+    display: flex;
+    gap: 3rem;
+}
+li{
+    list-style-type: none;
+    padding-right: 20px;
+    padding-top: 20px;
+}
